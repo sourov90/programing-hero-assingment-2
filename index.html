@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="hidden">
         <nav class="navber">
             <em class="navber-header">Fitness</em>
             <ul class="navber-items">
@@ -20,15 +20,17 @@
             </ul>
         </nav>
         <!-- style a banner section  -->
-        <div style="display: none;" class="banner-container">
+        <div  class="banner-container">
             <div class="banner-text-container">
                 <h1 class="banner-text-header">Get body in <br> <span style="font-style:italic; ">shape</span> & stay
                     <br> healthy</h1>
                 <p class="banner-text-description">A huge selection of health and fitness content, healthy recipes and
                     transformation stories to help you get fit and stay
                     fit!</p>
+            
                 <button class="btn-container">Join Club Now!</button>
                 <button class="another-banner-btn">Download App</button>
+              
             </div>
             <div class="banner-image-container">
                 <div class="video-tutorial">
@@ -43,9 +45,9 @@
             </div>
         </div>
     </header>
-    <main class="hidden">
+    <main>
         <!-- change habit style  -->
-        <div class="change-habit-style">
+        <div class="change-habit-style hidden">
             <div class="change-habit">
                 <h1>Change Your Habits</h1>
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
@@ -84,151 +86,152 @@
             </div>
         </div>
 
-        <!-- extra mile easily -->
-        <div class="extra-run-easily">
-            <div class="extra-run-text-container">
-                <h1 class="text-run-header">Run an Extra
-                    Mile Easily</h1>
-                <p class="run-text-description">We believe fitness should be accessible to everyone, everywhere,
-                    regardless of income or access to a gym. With hundreds
-                    of professional workouts.</p>
-                <button class="btn-container">Join Now</button>
-            </div>
-            <div class="extra-run-image-container">
-                <img class="extra-run-image" src="./images/run.jpg" alt="">
-            </div>
+    <!-- extra mile easily -->
+    <div class="extra-run-easily">
+        <div class="extra-run-text-container">
+            <h1 class="text-run-header">Run an Extra
+                Mile Easily</h1>
+            <p class="run-text-description">We believe fitness should be accessible to everyone, everywhere,
+                regardless of income or access to a gym. With hundreds
+                of professional workouts.</p>
+            <button class="btn-container">Join Now</button>
         </div>
-
-        <!-- traning and exercises style  -->
-        <div class="trainings-container">
-            <h1>Trainings and Exercises</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
-            </p>
+        <div class="extra-run-image-container">
+            <img class="extra-run-image" src="./images/run.jpg" alt="">
         </div>
-        <div class="exercises-image-container">
-            <div id="photo-1" class="exercises">
-                <img class="exercies-photo" src="./images/exercise1.jpg" alt="">
-                <p>joging</p>
-            </div>
-            <div id="photo-2" class="exercises">
-                <img class="exercies-photo" src="./images/exercise2.png" alt="">
-                <p>Bookdown</p>
-            </div>
-            <div id="photo-3" class="exercises">
-                <img class="exercies-photo" src="./images/exercise3.png" alt="">
-                <p>Leg Press: Works the quadriceps and glutes</p>
-            </div>
-            <div id="photo-4" class="exercises">
-                <img class="exercies-photo" src="./images/exercise4.png" alt="">
-                <p>Leg Press: Works the quadriceps and glutes</p>
-            </div>
-            <div id="photo-5" class="exercises">
-                <img class="exercies-photo" src="./images/exercise5.jpg" alt="">
-                <p>Leg Press: Works the quadriceps and glutes</p>
-            </div>
-            <div id="photo-6" class="exercises">
-                <img class="exercies-photo" src="./images/exercise6.jpg" alt="">
-                <p>Leg Press: Works the quadriceps and glutes</p>
-            </div>
+    </div>
+    <div class="hidden">
+    <!-- traning and exercises style  -->
+    <div class="trainings-container">
+        <h1>Trainings and Exercises</h1>
+        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+        </p>
+    </div>
+    <div class="exercises-image-container">
+        <div id="photo-1" class="exercises">
+            <img class="exercies-photo" src="./images/exercise1.jpg" alt="">
+            <p>joging</p>
         </div>
-
-
-        <!-- bmi calculate style  -->
-        <div class="bmi-chart">
-            <div class="calculator-bm">
-                <h1>BMI Calculator</h1>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
-                    gym.</p>
-            </div>
-            <div class="bmi">
-                <div class="bmi-calculator-container">
-                    <div class="bmi-calculator-chart">
-                        <table>
-                            <tr>
-                                <th>BMI</th>
-                                <th>Weight Status</th>
-                            </tr>
-                            <tr>
-                                <td>Below 18.5</td>
-                                <td>Healthy</td>
-                            </tr>
-                            <tr>
-                                <td>18.5 - 24.9</td>
-                                <td>Healthy</td>
-                            </tr>
-                            <tr>
-                                <td>25.0 - 29.9</td>
-                                <td>Overweight</td>
-                            </tr>
-                            <tr>
-                                <td>30.0 - and Above</td>
-                                <td>Obese</td>
-                            </tr>
-                        </table>
+        <div id="photo-2" class="exercises">
+            <img class="exercies-photo" src="./images/exercise2.png" alt="">
+            <p>Bookdown</p>
+        </div>
+        <div id="photo-3" class="exercises">
+            <img class="exercies-photo" src="./images/exercise3.png" alt="">
+            <p>Leg Press: Works the quadriceps and glutes</p>
+        </div>
+        <div id="photo-4" class="exercises">
+            <img class="exercies-photo" src="./images/exercise4.png" alt="">
+            <p>Leg Press: Works the quadriceps and glutes</p>
+        </div>
+        <div id="photo-5" class="exercises">
+            <img class="exercies-photo" src="./images/exercise5.jpg" alt="">
+            <p>Leg Press: Works the quadriceps and glutes</p>
+        </div>
+        <div id="photo-6" class="exercises">
+            <img class="exercies-photo" src="./images/exercise6.jpg" alt="">
+            <p>Leg Press: Works the quadriceps and glutes</p>
+        </div>
+    </div>
+    
+    
+    <!-- bmi calculate style  -->
+    <div class="bmi-chart">
+        <div class="calculator-bm">
+            <h1>BMI Calculator</h1>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                gym.</p>
+        </div>
+        <div class="bmi">
+            <div class="bmi-calculator-container">
+                <div class="bmi-calculator-chart">
+                    <table>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight Status</th>
+                        </tr>
+                        <tr>
+                            <td>Below 18.5</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>18.5 - 24.9</td>
+                            <td>Healthy</td>
+                        </tr>
+                        <tr>
+                            <td>25.0 - 29.9</td>
+                            <td>Overweight</td>
+                        </tr>
+                        <tr>
+                            <td>30.0 - and Above</td>
+                            <td>Obese</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="calculate-your-bmi">
+                    <div class="bmi-input-filed-container">
+                        <h1>Calculate your BMI</h1>
+                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
+                            access to a gym.
+                        </p>
                     </div>
-                    <div class="calculate-your-bmi">
-                        <div class="bmi-input-filed-container">
-                            <h1>Calculate your BMI</h1>
-                            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
-                                access to a gym.
-                            </p>
-                        </div>
-                        <div class="input-field">
-                            <input class="bmi-input" type="text" placeholder="Height/cm" id="">
-                            <input class="bmi-input" type="text" placeholder="Weigh/kg" id="">
-                            <input class="bmi-input" type="text" placeholder="Age" id="">
-                            <input class="bmi-input" type="text" placeholder="Sex" id="">
-                            <input class="bmi-input" id="four-input-text" type="text"
-                                placeholder="Select an activity factor" id="">
-                            <div class="bmi-btn">
-                                <button class="btn-container">continoue</button>
-                            </div>
+                    <div class="input-field">
+                        <input class="bmi-input" type="text" placeholder="Height/cm" id="">
+                        <input class="bmi-input" type="text" placeholder="Weigh/kg" id="">
+                        <input class="bmi-input" type="text" placeholder="Age" id="">
+                        <input class="bmi-input" type="text" placeholder="Sex" id="">
+                        <input class="bmi-input" id="four-input-text" type="text" placeholder="Select an activity factor"
+                            id="">
+                        <div class="bmi-btn">
+                            <button class="btn-container">continoue</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- meet a team style  -->
-        <div class="meet-container">
-            <h1>Meet Our Team</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
-            </p>
+    </div>
+    <!-- meet a team style  -->
+    <div class="meet-container">
+        <h1>Meet Our Team</h1>
+        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+        </p>
+    </div>
+    
+    <div class="meting-person-container">
+        <div class="met-person">
+            <img src="./images/trainer1.png" alt=""></img>
+            <h3>Jerome Bell</h3>
+            <p>trainer</p>
         </div>
-
-        <div class="meting-person-container">
-            <div class="met-person">
-                <img src="./images/trainer1.png" alt=""></img>
-                <h3>Jerome Bell</h3>
-                <p>trainer</p>
-            </div>
-
-            <div class="met-person">
-                <img src="./images/trainer2.png" alt=""></img>
-                <h3>Gameron Willi</h3>
-                <p>trainer</p>
-            </div>
-
-            <div class="met-person">
-                <img src="./images/trainer3.png" alt=""></img>
-                <h3>Darrell Steward</h3>
-                <p>trainer</p>
-            </div>
-            <div class="met-person">
-                <img src="./images/trainer4.png" alt=""></img>
-                <h3>Dianne Russell</h3>
-                <p>trainer</p>
-            </div>
-            <div class="met-person">
-                <img src="./images/trainer5.png" alt=""></img>
-                <h3>Cody Fisher</h3>
-                <p>trainer</p>
-            </div>
-            <div class="met-person">
-                <img src="./images/trainer6.png" alt=""></img>
-                <h3>Theresa Webb</h3>
-                <p>trainer</p>
-            </div>
+    
+        <div class="met-person">
+            <img src="./images/trainer2.png" alt=""></img>
+            <h3>Gameron Willi</h3>
+            <p>trainer</p>
         </div>
+    
+        <div class="met-person">
+            <img src="./images/trainer3.png" alt=""></img>
+            <h3>Darrell Steward</h3>
+            <p>trainer</p>
+        </div>
+        <div class="met-person">
+            <img src="./images/trainer4.png" alt=""></img>
+            <h3>Dianne Russell</h3>
+            <p>trainer</p>
+        </div>
+        <div class="met-person">
+            <img src="./images/trainer5.png" alt=""></img>
+            <h3>Cody Fisher</h3>
+            <p>trainer</p>
+        </div>
+        <div class="met-person">
+            <img src="./images/trainer6.png" alt=""></img>
+            <h3>Theresa Webb</h3>
+            <p>trainer</p>
+        </div>
+    </div>
+</div>
 
     </main>
     <footer class="footer-containers hidden">

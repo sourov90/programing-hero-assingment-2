@@ -7,8 +7,9 @@
     font-family: "Inter Tight", sans-serif;
 
 }
-.hidden{
-    display:none;
+
+.hidden {
+    display: none;
 }
 
 body {
@@ -115,7 +116,7 @@ body {
     margin: 123px 0px 0px 375px;
     color: white;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    
+
 }
 
 .video-header {
@@ -129,7 +130,7 @@ body {
     border-radius: 12px;
     padding: 15px 3px;
     margin-top: -145px;
-    margin-left: 80px;
+    margin-left: 110px;
     text-align: center;
     color: white;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
@@ -435,4 +436,76 @@ table {
     background-color: rgb(68, 66, 66);
     margin-top: 50px;
     padding: 30px 0px;
+}
+
+/* responsive a website  */
+@media screen and (max-width:576px) {
+    .navber {
+        flex-direction: column;
+    }
+
+    .navber-items li {
+        font-size: 15px;
+    }
+
+    .navber-items {
+        gap: 10px;
+    }
+
+    .navber-header {
+        font-size: 25px;
+    }
+
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .banner-text-header {
+        font-size: 38px;
+        max-width: 1200px;
+
+    }
+
+    .another-banner-btn {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    /* .change-habit {
+        max-width: 600px;
+        margin: 30px auto;
+        margin-top: 90px;
+    } */
+
+    .change-habit h1 {
+        font-size: 30px;
+        text-align: start;
+        padding: 10px;
+    }
+
+    .change-habit p {
+        color: rgb(190, 176, 176);
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .change-habit-image-container {
+         flex-direction: column;
+         text-align: center;
+    }
+
+    .habit-image {
+        border-radius: 50%;
+    }
+
+    .habit-text {
+        max-width: 100%;
+        color: rgb(207, 196, 196);
+        text-align: center;
+    }
+
+    .habit-text p {
+        margin-top: 10px;
+    }
+
 }

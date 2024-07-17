@@ -211,3 +211,69 @@ body {
     color: rgb(187, 173, 173);
     margin: 15px 0px;
 }
+
+/* style a bmi calculator  */
+.bmi-calculator-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 40px auto;
+}
+
+.calculator-bm{
+    max-width: 600px;
+    margin: 40px auto;
+    
+}
+.calculator-bm h1{
+    color: white;
+}
+.calculator-bm p{
+    color: rgb(190, 179, 179);
+    margin-top: 10px;
+}
+ 
+/* style a table  */
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: start;
+    padding: 20px 60px;
+    color: white;
+    border: solid rgb(92, 89, 89);
+}
+table{
+    border-collapse: collapse;
+ 
+}
+
+.input-field{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+.bmi-input{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(175, 166, 166);
+}
+.bmi-input-filed-container{
+    max-width: 450px;
+}
+.bmi-input-filed-container h1{
+    color: white;
+}
+.bmi-input-filed-container p{
+    color: rgb(204, 191, 191);
+    margin: 15px 0px;
+}
+::placeholder{
+    color:black;
+}
+#four-input-text{
+    grid-column: 1 / span 2;
+}

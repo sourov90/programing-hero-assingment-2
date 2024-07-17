@@ -7,6 +7,9 @@
     font-family: "Inter Tight", sans-serif;
 
 }
+.hidden{
+    display:none;
+}
 
 body {
     background-color: rgb(29, 27, 27);
@@ -35,6 +38,7 @@ body {
     list-style-type: none;
     gap: 30px;
     align-items: center;
+    color: white;
 }
 
 .navber-first-item {
@@ -51,7 +55,7 @@ body {
 
 .navber-header {
     color: rgb(230, 83, 60);
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
 }
 
@@ -68,14 +72,14 @@ body {
 
 .banner-text-header {
     font-size: 68px;
-    max-width: 450px;
+    max-width: 700px;
     font-weight: 900px;
     color: white;
 
 }
 
 .banner-text-description {
-    max-width: 450px;
+    max-width: 680px;
     margin: 15px 0px;
     font-size: 20px;
     color: rgb(167, 157, 157);
@@ -91,8 +95,8 @@ body {
 }
 
 .banner-image-container {
-    width: 409px;
-    height: 450px;
+    width: 580px;
+    height: 550px;
     position: relative;
 
 }
@@ -100,7 +104,6 @@ body {
 .banner-image {
     width: 100%;
     height: 100%;
-
 }
 
 .video-tutorial {
@@ -109,10 +112,10 @@ body {
     border-radius: 12px;
     padding: 10px 15px;
     text-align: center;
-    margin: 85px 10px 0px 255px;
+    margin: 123px 0px 0px 375px;
     color: white;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-
+    
 }
 
 .video-header {
@@ -124,8 +127,9 @@ body {
     position: absolute;
     border: 2px solid orange;
     border-radius: 12px;
-    padding: 10px;
-    margin-top: -95px;
+    padding: 15px 3px;
+    margin-top: -145px;
+    margin-left: 80px;
     text-align: center;
     color: white;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
@@ -161,7 +165,6 @@ body {
 
 .habit-image {
     border-radius: 50%;
-
 }
 
 .habit-text {
@@ -213,38 +216,45 @@ body {
 }
 
 /* traning exercises style  */
-.trainings-container{
-    max-width:500px;
+.trainings-container {
+    max-width: 500px;
     margin: 20px auto;
 }
-.trainings-container h1{
+
+.trainings-container h1 {
     color: white;
 }
-.trainings-container p{
+
+.trainings-container p {
     color: rgb(179, 168, 168);
     margin-top: 15px;
 }
- 
-.exercies-photo{
+
+.exercies-photo {
     width: 100%;
     height: 100%;
     border-radius: 10px;
 }
-.exercises-image-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
-    gap: 10px;
 
+.exercises-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 90%;
+    margin: 40px auto;
 }
-#photo-1{
-    grid-column: 1 / span 1 ;
+
+#photo-1 {
+    grid-column: 1 / span 1;
 }
-#photo-2{
+
+#photo-2 {
     grid-column: 2 / span 2;
 }
-#photo-4{
-   grid-column: 1 / span 2; 
+
+#photo-4 {
+    grid-column: 1 / span 2;
 }
 
 /* style a bmi calculator  */
@@ -253,6 +263,12 @@ body {
     justify-content: space-between;
     max-width: 90%;
     margin: 40px auto;
+}
+
+.bmi {
+    background-color: rgb(68, 66, 66);
+    margin-top: 50px;
+    padding: 30px 0px;
 }
 
 .calculator-bm {
@@ -325,6 +341,7 @@ table {
 /* style meet section  */
 .meet-container {
     text-align: center;
+    margin: 60px 0px;
 }
 
 .meet-container h1 {
@@ -340,7 +357,7 @@ table {
     max-width: 500px;
     height: 272px;
     position: relative;
- }
+}
 
 .met-person img {
     width: 100%;
@@ -354,7 +371,7 @@ table {
     width: 90%;
     margin: 30px auto;
     gap: 10px;
-    
+
 }
 
 .met-person h3 {
@@ -364,7 +381,7 @@ table {
     margin-left: 30px;
 }
 
-.met-person p{
+.met-person p {
     color: white;
     position: absolute;
     margin-top: -65px;
@@ -373,34 +390,49 @@ table {
 }
 
 /* style a footer section  */
-.footer-container{
+.footer-container {
     display: flex;
     max-width: 90%;
     justify-content: space-around;
 }
+
 /* .footer-container div{
     flex: 1;
 } */
- .fitness{
+.fitness {
     max-width: 400px;
- }
- .fitness em{
+}
+
+.fitness em {
     font-size: 40px;
     font-weight: 800px;
     color: rgb(230, 83, 60);
- }
- .fitness p{
+}
+
+.fitness p {
     color: rgb(187, 172, 172);
     margin-top: 15px;
- }
- .get-started-1 h1, .get-started-2 h1{
+}
+
+.get-started-1 h1,
+.get-started-2 h1 {
     color: white;
- }
- .get-started-1 h3, .get-started-2 h3{
+}
+
+.get-started-1 h3,
+.get-started-2 h3 {
     color: rgb(196, 179, 179);
- }
- .copy-footer{
+}
+
+.copy-footer {
     text-align: center;
     color: white;
     margin-bottom: 40px;
- }
+}
+
+.footer-containers {
+
+    background-color: rgb(68, 66, 66);
+    margin-top: 50px;
+    padding: 30px 0px;
+}

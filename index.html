@@ -20,9 +20,10 @@
             </ul>
         </nav>
         <!-- style a banner section  -->
-        <div class="banner-container">
+        <div style="display: none;" class="banner-container">
             <div class="banner-text-container">
-                <h1 class="banner-text-header">Get body in shape & stay healthy</h1>
+                <h1 class="banner-text-header">Get body in <br> <span style="font-style:italic; ">shape</span> & stay
+                    <br> healthy</h1>
                 <p class="banner-text-description">A huge selection of health and fitness content, healthy recipes and
                     transformation stories to help you get fit and stay
                     fit!</p>
@@ -42,7 +43,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="hidden">
         <!-- change habit style  -->
         <div class="change-habit-style">
             <div class="change-habit">
@@ -99,36 +100,37 @@
         </div>
 
         <!-- traning and exercises style  -->
-         <div class="trainings-container">
+        <div class="trainings-container">
             <h1>Trainings and Exercises</h1>
-            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-         </div>
-         <div class="exercises-image-container">
-             <div id="photo-1" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise1.jpg" alt="">
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+            </p>
+        </div>
+        <div class="exercises-image-container">
+            <div id="photo-1" class="exercises">
+                <img class="exercies-photo" src="./images/exercise1.jpg" alt="">
                 <p>joging</p>
-             </div>
-             <div id="photo-2" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise2.png" alt="">
+            </div>
+            <div id="photo-2" class="exercises">
+                <img class="exercies-photo" src="./images/exercise2.png" alt="">
                 <p>Bookdown</p>
-             </div>
-             <div id="photo-3" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise3.png" alt="">
+            </div>
+            <div id="photo-3" class="exercises">
+                <img class="exercies-photo" src="./images/exercise3.png" alt="">
                 <p>Leg Press: Works the quadriceps and glutes</p>
-             </div>
-             <div id="photo-4" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise4.png" alt="">
+            </div>
+            <div id="photo-4" class="exercises">
+                <img class="exercies-photo" src="./images/exercise4.png" alt="">
                 <p>Leg Press: Works the quadriceps and glutes</p>
-             </div>
-             <div id="photo-5" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise5.jpg" alt="">
+            </div>
+            <div id="photo-5" class="exercises">
+                <img class="exercies-photo" src="./images/exercise5.jpg" alt="">
                 <p>Leg Press: Works the quadriceps and glutes</p>
-             </div>
-             <div id="photo-6" class="exercises">
-                <img  class="exercies-photo" src="./images/exercise6.jpg" alt="">
+            </div>
+            <div id="photo-6" class="exercises">
+                <img class="exercies-photo" src="./images/exercise6.jpg" alt="">
                 <p>Leg Press: Works the quadriceps and glutes</p>
-             </div>
-         </div>
+            </div>
+        </div>
 
 
         <!-- bmi calculate style  -->
@@ -138,47 +140,49 @@
                 <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
                     gym.</p>
             </div>
-            <div class="bmi-calculator-container">
-                <div class="bmi-calculator-chart">
-                    <table>
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight Status</th>
-                        </tr>
-                        <tr>
-                            <td>Below 18.5</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>18.5 - 24.9</td>
-                            <td>Healthy</td>
-                        </tr>
-                        <tr>
-                            <td>25.0 - 29.9</td>
-                            <td>Overweight</td>
-                        </tr>
-                        <tr>
-                            <td>30.0 - and Above</td>
-                            <td>Obese</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="calculate-your-bmi">
-                    <div class="bmi-input-filed-container">
-                        <h1>Calculate your BMI</h1>
-                        <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
-                            access to a gym.
-                        </p>
+            <div class="bmi">
+                <div class="bmi-calculator-container">
+                    <div class="bmi-calculator-chart">
+                        <table>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </table>
                     </div>
-                    <div class="input-field">
-                        <input class="bmi-input" type="text" placeholder="Height/cm" id="">
-                        <input class="bmi-input" type="text" placeholder="Weigh/kg" id="">
-                        <input class="bmi-input" type="text" placeholder="Age" id="">
-                        <input class="bmi-input" type="text" placeholder="Sex" id="">
-                        <input class="bmi-input" id="four-input-text" type="text"
-                            placeholder="Select an activity factor" id="">
-                        <div class="bmi-btn">
-                            <button class="btn-container">continoue</button>
+                    <div class="calculate-your-bmi">
+                        <div class="bmi-input-filed-container">
+                            <h1>Calculate your BMI</h1>
+                            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or
+                                access to a gym.
+                            </p>
+                        </div>
+                        <div class="input-field">
+                            <input class="bmi-input" type="text" placeholder="Height/cm" id="">
+                            <input class="bmi-input" type="text" placeholder="Weigh/kg" id="">
+                            <input class="bmi-input" type="text" placeholder="Age" id="">
+                            <input class="bmi-input" type="text" placeholder="Sex" id="">
+                            <input class="bmi-input" id="four-input-text" type="text"
+                                placeholder="Select an activity factor" id="">
+                            <div class="bmi-btn">
+                                <button class="btn-container">continoue</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -227,12 +231,13 @@
         </div>
 
     </main>
-    <footer>
+    <footer class="footer-containers hidden">
         <div class="footer-container">
             <div class="fitness">
                 <em>Fitness</em>
-                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds
-                of professional workouts.</p>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a
+                    gym. With hundreds
+                    of professional workouts.</p>
             </div>
             <div class="get-started-1">
                 <h1>Get Started</h1>

@@ -1,5 +1,41 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter Tight", sans-serif;
+}
+
+.navber {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.navber-items {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-items: center;
+}
+
+.navber-first-item {
+    background: rgb(230, 83, 60);
+    padding:10px 15px;
+    border-radius: 16px;
+    color: white;
+    
+}
+
+.navber-items li {
+    font-size: 20px;
+}
+
+.navber-header {
+    color: rgb(230, 83, 60);
+    font-size: 30px;
+    font-weight: bold;
 }

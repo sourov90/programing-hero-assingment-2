@@ -336,3 +336,36 @@ table {
     margin-left: 30px;
 
 }
+
+/* style a footer section  */
+.footer-container{
+    display: flex;
+    max-width: 90%;
+    justify-content: space-around;
+}
+/* .footer-container div{
+    flex: 1;
+} */
+ .fitness{
+    max-width: 400px;
+ }
+ .fitness em{
+    font-size: 40px;
+    font-weight: 800px;
+    color: rgb(230, 83, 60);
+ }
+ .fitness p{
+    color: rgb(187, 172, 172);
+    margin-top: 15px;
+ }
+ .get-started-1 h1, .get-started-2 h1{
+    color: white;
+ }
+ .get-started-1 h3, .get-started-2 h3{
+    color: rgb(196, 179, 179);
+ }
+ .copy-footer{
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+ }

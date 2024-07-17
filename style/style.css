@@ -397,9 +397,7 @@ table {
     justify-content: space-around;
 }
 
-/* .footer-container div{
-    flex: 1;
-} */
+ 
 .fitness {
     max-width: 400px;
 }
@@ -598,19 +596,10 @@ table {
 
 
     .meet-container {
-        text-align: center;
-        margin: 60px 0px;
+         padding: 0px 10px;
+         text-align: start;
     }
-
-    .meet-container h1 {
-        color: white;
-    }
-
-    .meet-container p {
-        color: rgb(207, 198, 198);
-        margin-top: 10px;
-    }
-
+  
     .met-person {
         max-width: 500px;
         height: 272px;
@@ -625,25 +614,52 @@ table {
 
     .meting-person-container {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         width: 90%;
         margin: 30px auto;
         gap: 10px;
 
     }
 
-    .met-person h3 {
-        color: white;
-        position: absolute;
-        margin-top: -90px;
-        margin-left: 30px;
-    }
+        .footer-container {
+           flex-direction: column;
+        }
+/*     
+    
+        .fitness {
+            max-width: 800px;
+        } */
+    
+        .fitness em {
+           display: flex;
+           justify-content: center;
+        }
+    
+        .fitness p {
+            color: rgb(187, 172, 172);
+            text-align: start;
+            margin-left:20px ;
 
-    .met-person p {
-        color: white;
-        position: absolute;
-        margin-top: -65px;
-        margin-left: 30px;
-
-    }
+        }
+    
+     .get-started-1 h1,
+        .get-started-2 h1 {
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+        } 
+    
+        .get-started-1 h3,
+        .get-started-2 h3 {
+            color: rgb(196, 179, 179);
+            text-align: center;
+        }
+     */
+        .copy-footer {
+            text-align: center;
+            color: white;
+            margin-bottom: 40px;
+        }
+        
+ 
 }

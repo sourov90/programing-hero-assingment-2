@@ -5,11 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter Tight", sans-serif;
-    
+
 }
-body{
+
+body {
     background-color: rgb(29, 27, 27);
 }
+
 /* shaired style  */
 .btn-container {
     border-radius: 12px;
@@ -98,7 +100,7 @@ body{
 .banner-image {
     width: 100%;
     height: 100%;
-    
+
 }
 
 .video-tutorial {
@@ -110,7 +112,7 @@ body{
     margin: 85px 10px 0px 255px;
     color: white;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-   
+
 }
 
 .video-header {
@@ -130,23 +132,25 @@ body{
 }
 
 /* change your habit style  */
-.change-habit{
+.change-habit {
     max-width: 600px;
     margin: 30px auto;
     margin-top: 90px;
 }
-.change-habit h1{
+
+.change-habit h1 {
     font-size: 40px;
     color: white;
-    margin:20px 0px;
+    margin: 20px 0px;
     text-align: center;
 }
-.change-habit p{
+
+.change-habit p {
     color: rgb(190, 176, 176);
     font-size: 20px;
 }
 
-.change-habit-image-container{
+.change-habit-image-container {
     display: flex;
     max-width: 90%;
     /* border: 2px solid green; */
@@ -154,15 +158,56 @@ body{
     margin: 80px auto;
     gap: 140px;
 }
-.habit-image{
+
+.habit-image {
     border-radius: 50%;
-     
+
 }
-.habit-text{
+
+.habit-text {
     max-width: 200px;
     color: rgb(207, 196, 196);
 }
-.habit-text p{
+
+.habit-text p {
     margin-top: 10px;
 }
 
+/* extra run mile  */
+.extra-run-easily {
+    display: flex;
+    max-width: 90%;
+    margin: 50px auto;
+    justify-content: space-between;
+    border-radius: 18px;
+    background: rgb(58, 56, 56);
+    padding: 40px;
+}
+
+.extra-run-image-container {
+    width: 366px;
+    height: 312px;
+     
+   
+}
+
+.extra-run-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.extra-run-text-container {
+    max-width: 500px;
+}
+
+.text-run-header {
+    font-size: 60px;
+    color: rgb(241, 234, 234);
+}
+
+.run-text-description {
+    font-size: 20px;
+    color: rgb(187, 173, 173);
+    margin: 15px 0px;
+}

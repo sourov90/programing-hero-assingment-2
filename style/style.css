@@ -436,8 +436,80 @@ table {
     padding: 30px 0px;
 }
 
+/* extra section  */
+.benefite-items{
+  max-width: auto;
+  height: 300px
+    
+ } 
+.human{
+    width: 100%;
+    height: 100%;
+}
+.benefites{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 90%;
+    margin: 0px auto;
+    gap: 10px;
+}
+.benefite-items{
+    position: relative;
+}
+.human-nessery{
+    position: absolute;
+    margin-top: -290px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(16, 16, 7);
+}
+.big-man{
+    color: white;
+}
+.benefit-humans{
+    max-width: 90%;
+    color: wheat;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+}
+.benefit-header{
+    max-width: 700px;
+}
+
 /* responsive a website  */
 @media screen and (max-width:576px) {
+/* .benefite-items {
+        max-width:700px;
+        height: 300px
+    } */
+
+    .human {
+        width: 100%;
+        height: 100%;
+    }
+
+    .benefites {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    .benefit-humans {
+        max-width: 90%;
+        color: wheat;
+        margin: 60px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .benefit-header {
+        max-width: 700px;
+    }
+   
+   
+   
     .navber {
         flex-direction: column;
     }
